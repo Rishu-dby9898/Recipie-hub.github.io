@@ -1,0 +1,158 @@
+.between {
+    background-color: rgb(185, 171, 171);
+    height: 40px;
+    
+}
+
+.jumbotron-fluid {
+    font-Family: cursive;
+    display: grid;
+    background-image: url("../images/food1.jpg");
+    background-repeat:no-repeat;
+    background-size: 1520px;
+   
+    height: 200px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+}
+
+.jumbotron-fluid h1 {
+    margin-top: 10px;
+}
+
+.input-group {
+    margin-top: -40px;
+}
+
+button {
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    opacity:0.5;
+}
+
+input {
+    font-size: 18px;
+    font-weight: bold;
+    height: 30px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity:0.8;
+    text-align: center;
+}
+
+.wrap {
+    font-family:monospaced;
+    font-size:15px;
+    word-wrap: break-word;
+    border: 2px solid rgb(142, 141, 141);
+    height: fixed;
+    margin-top: -8px;
+    background-color: rgb(194, 194, 193);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px; 
+}
+
+.wrap:hover {
+    
+    font-weight:lighter;
+    cursor: pointer;
+    box-shadow: 6px 5px 10px rgb(43, 42, 42);
+    transition: all 0.3s;
+ color:rgb(255, 252, 252);
+ background-color:rgb(91, 91, 91);
+}
+
+.card-columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    justify-content: space-between;
+    background-color: rgb(217, 213, 213);
+    margin-left: 0px;
+    margin-right: 0px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.card-py {
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+
+
+}
+
+.flush {
+    inline-size: 250px;
+    overflow-wrap: break-word;
+}
+
+.card-body {
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    margin-top: -29px;
+    width: 300px;
+    color: white;
+    border: none;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius: 7px;
+
+
+
+}
+
+img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.flush {
+    overflow-wrap: break-word;
+}
+
+.card-body {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    width: 302px;
+}
+
+h5 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+button:hover {
+    background-color: rgb(242, 237, 237);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+img:hover{
+    transform:scale(1.02);
+    transition: all 0.3s;
+}
+
